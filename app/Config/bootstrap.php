@@ -51,6 +51,8 @@ Cache::config('default', array('engine' => 'File'));
  *
  */
 
+CakePlugin::loadAll(); // Loads all plugins at once
+
 /**
  * Custom Inflector rules can be set to correctly pluralize or singularize table, model, controller names or whatever other
  * string is passed to the inflection functions
